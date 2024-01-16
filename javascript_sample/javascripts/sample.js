@@ -1,3 +1,0 @@
-function clickAlert(){
-    alert("クリックされました");
-}
