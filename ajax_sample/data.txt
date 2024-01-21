@@ -1,0 +1,6 @@
+1.ボタンクリック時に、HTTPリクエストを実行し、レスポンス完了(request.readyStatus ==4)&サーバとの通信が
+正常に行われる。(request.status ==200)
+2.ajax.jsonから取得した配列のインデックスに該当するプロパティとして設定してある"title","content","url"の
+プロパティ値を"title","content","video"のそれぞれをHTMLに表示する
+3.ajax.jsonから取得したインデックスの値が2の場合は0を、それ以外の場合は取得したインデックスに+1をして
+numberに代入する。
